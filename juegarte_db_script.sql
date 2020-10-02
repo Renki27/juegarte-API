@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-10-2020 a las 01:05:08
+-- Tiempo de generación: 03-10-2020 a las 00:02:37
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.2.31
 
@@ -190,7 +190,7 @@ CREATE TABLE `game` (
 --
 
 INSERT INTO `game` (`ID_GAME`, `GAME_MODE_NAME`, `GAME_INSTRUCTIONS`, `QUESTION_TIME_S`) VALUES
-(1, 'Normal Questions', 'game instructions', 30),
+(1, 'Trivia', 'game instructions', 30),
 (2, 'True or False', 'game instructions', 30),
 (3, 'Scratch Game', 'game instructions', 30);
 
