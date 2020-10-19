@@ -73,7 +73,7 @@ if ($_GET["request"] == "loadTFQue") {
   
       if ($questionsPayload) {
           $length = count($questionsPayload);
-          $scratchQuestions = [];
+          $trueFalseQuestions = [];
           if($length > 0) {
               for ($i = 0; $i < $length; $i++) {
   
@@ -93,17 +93,14 @@ if ($_GET["request"] == "loadTFQue") {
   
   
           $response['status'] = "Success";
-          $response['message'] = "Questions loaded!";
+          $response['message'] = "Quuedeestions loaded!";
           $response['trueFalseQuestions'] = $trueFalseQuestions;
       } else {
           $response['status'] = "Error";
           $response['message'] = "Questions not found!"; 
       }
   
-  
-  
-  
-  
+
   
   
     //  header("Content-type: application/json");
