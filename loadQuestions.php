@@ -153,7 +153,7 @@ if ($_GET["request"] == "loadTFQue") {
   
           $response['status'] = "Success";
           $response['message'] = "Questions loaded loaded!";
-          $response['scratchQuestions'] = $triviaQuestions;
+          $response['triviaQuestions'] = $triviaQuestions;
       } else {
           $response['status'] = "Error";
           $response['message'] = "Questions not found!"; 
